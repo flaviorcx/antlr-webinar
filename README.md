@@ -9,7 +9,10 @@ The solution has 4 projects:
 - **JsonToXml.UnitTests**: contains a couple of unit tests to check the generated parse tree and the visitor created.
 
 ## Useful links
-- [AnTLR 4 Documentation](https://github.com/antlr/antlr4/blob/master/doc/index.md)
-- [Regular Expressions Reference](https://www.regular-expressions.info/refquick.html)
+- AnTLR 4
+	- [Documentation](https://github.com/antlr/antlr4/blob/master/doc/index.md)
+	- [Grammars](https://github.com/antlr/grammars-v4)
+- Regular Expressions
+	- [Quick Reference](https://www.regular-expressions.info/refquick.html)
 
 **Enjoy!**
