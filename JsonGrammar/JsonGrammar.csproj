@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Antlr4 Remove="gen\**" />
+    <Compile Remove="gen\**" />
+    <EmbeddedResource Remove="gen\**" />
+    <None Remove="gen\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4" Version="4.6.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Antlr4 Update="JsonLexer.g4">
+      <Listener>False</Listener>
+    </Antlr4>
+    <Antlr4 Update="JsonParser.g4">
+      <Listener>False</Listener>
+    </Antlr4>
+  </ItemGroup>
+
+</Project>

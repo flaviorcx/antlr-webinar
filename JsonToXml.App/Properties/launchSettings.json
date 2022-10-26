@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JsonToXml.App": {
+      "commandName": "Project",
+      "commandLineArgs": "./sample.json"
+    }
+  }
+}
